@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <>
-    <title>LocalWise</title>
+    <title>IG News</title>
     <h1>
-      LocalWise
+      Hello World
     </h1>
     </>
     
