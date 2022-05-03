@@ -1,3 +1,3 @@
-## Projeto Interdiciplinar Fatec
+## Projeto Interdisciplinar Fatec
 
 # LocalWise
