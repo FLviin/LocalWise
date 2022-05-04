@@ -1,11 +1,14 @@
 import {SignIn} from '../SingIn'
 import styles from './styles.module.scss';
+import Image from 'next/image'
 
 export function Header(){
     return(
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <img src="/images/logo.png" alt="logo" />
+                <img
+                src="/images/logo.png" alt="logo" 
+                />
                 <nav>
                     <a href="#" className={styles.active}>Home</a>
                     <a href="#">Pesquisar</a>
