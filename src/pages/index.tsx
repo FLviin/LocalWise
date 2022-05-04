@@ -1,4 +1,5 @@
 import Head  from "next/head";
+import { InputInit } from "../components/InputInit";
 import styles from './home.module.scss'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     
     <main className={styles.contentContainer}>
       <section className={styles.left}>
-          <input type="text" />
+          <InputInit />
       </section>
       <section className={styles.right}>
           

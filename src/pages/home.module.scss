@@ -58,16 +58,14 @@
 .left{
     height: 100%;
     grid-area: 1 / 1 / 2 / 2;
-    background: url(../../public/images/backgroundLeft.png);
+    background: linear-gradient(to top, rgba(0,0,0,.43),rgba(0,0,0,.37)), 
+    url(../../public/images/backgroundLeft.png);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 
-    input{
-        text-align: center;
-        margin: 0 auto;
-    }
 }
 .right{
     height: 100%;

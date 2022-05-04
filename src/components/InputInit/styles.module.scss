@@ -1,0 +1,26 @@
+.inputContainer{
+    
+    border-radius: 2rem;
+    border: 0;
+    padding: 1.5rem 1rem;
+
+    background: rgb(2,115,94);
+    background: linear-gradient(90deg, rgba(2,115,94,1) 0%, rgba(1,64,64,0.8519782913165266) 100%);
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    legend{
+        margin: 0.25rem;
+        font-size: 1.2rem;
+    }
+
+    input{
+        margin: 0.25rem;
+        border-radius: 0.25rem;
+        border: 0;
+        padding: 0.2rem;
+        text-align: center;
+    }
+}
