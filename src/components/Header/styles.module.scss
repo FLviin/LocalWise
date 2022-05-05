@@ -1,7 +1,6 @@
 .headerContainer{
     height: 5rem;
     border-bottom: 1px solid var(--gray-800);
-    background: rgb(2,115,94);
     background: linear-gradient(90deg, rgba(2,115,94,1) 0%, rgba(1,64,64,0.8519782913165266) 100%);
 }
 
@@ -13,13 +12,13 @@
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     img{
         filter: drop-shadow(0 0 0.75rem black);
     }
 
     nav{
-        margin-left: 5rem;
         height: 5rem;
 
         a{
@@ -54,9 +53,5 @@
                 background: var(--yellow);
             }
         }
-    }
-
-    button{
-        margin-left: auto;
     }
 }

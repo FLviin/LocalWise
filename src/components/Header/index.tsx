@@ -12,7 +12,6 @@ export function Header(){
                     <a href="#" className={styles.active}>Home</a>
                     <a href="#">Pesquisar</a>
                 </nav>
-
                 <SignIn />
             </div>
         </header>
