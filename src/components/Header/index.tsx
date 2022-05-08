@@ -20,9 +20,7 @@ export function Header({onOpenSingInModal} : HeaderProps){
                     <a href="#">Pesquisar</a>
                 </nav>
                 <button type="button" className={styles.signInButton} onClick={onOpenSingInModal}>
-                    <FaGoogle color="#04d361"/>
-                        User Name
-                    <FiX color="#737380" className={styles.closeIcon}/>
+                    <span>Sing In</span>
                 </button>
                 
 
