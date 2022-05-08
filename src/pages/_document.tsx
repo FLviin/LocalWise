@@ -8,10 +8,11 @@ export default class myDocument extends Document {
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />                    
-                </Head>
+                    </Head>
                 <body>
                     <Main />
                     <NextScript />
+
                 </body>
             </Html>
         );
