@@ -49,7 +49,7 @@ export function SingInModal({isOpen , onRequestClose}: SingInModalProps){
         </div>
         <div className={styles.content}>
             <div className={styles.singIn}>
-                <h1>Quero Me Cadastrar</h1>
+                <h1>Cadastre-se</h1>
                 <p>Com</p>
                 <div className={styles.loginIcon}>
                     <button><FaGoogle color='red'/></button>
