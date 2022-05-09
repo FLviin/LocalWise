@@ -74,7 +74,6 @@ export function SingInModal({isOpen , onRequestClose}: SingInModalProps){
                 <button type='submit' className={styles.login}>
                     Logar
                 </button>
-
                 <p>Ja tem Cadastro?
                     <a href="#"> Faça Login </a> 
                 </p>

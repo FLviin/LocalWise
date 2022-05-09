@@ -1,5 +1,4 @@
 import { Header } from '../components/Header';
-import Modal from 'react-modal'
 
 import {AppProps} from 'next/app';
 import '../styles/global.scss';
