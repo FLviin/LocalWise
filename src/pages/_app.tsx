@@ -1,8 +1,10 @@
-import { Header } from '../components/Header';
 
 import {AppProps} from 'next/app';
-import '../styles/global.scss';
 import { useState } from 'react';
+
+import '../styles/global.scss';
+
+import { Header } from '../components/Header';
 import { SingInModal } from '../components/SingInModal';
 
 function MyApp({ Component, pageProps }: AppProps) {
